@@ -1,0 +1,29 @@
+{
+    "name": "waldekgraban/simple-php-blockchain",
+    "description":"A simple set of classes to handle blockchain in PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Waldemar Graban",
+        "email": "waldekgraban@gmail.com"
+    }],
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.2",
+        "phpunit/phpunit": "^8.5",
+        "symfony/var-dumper": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Waldekgraban\\SimplePhpBlockchain\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Waldekgraban\\SimplePhpBlockchain\\": "src/",
+            "Waldekgraban\\SimplePhpBlockchain\\Tests\\": "tests/"
+        }
+    }
+}
