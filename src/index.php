@@ -14,6 +14,6 @@ use Waldekgraban\SimplePhpBlockchain\Mine\Miner;
 //example of use
 
 $miner = new Miner();
+$miner->setQuantityOfBlock(5);
 
-$miner->mine();
 $miner->mine();
